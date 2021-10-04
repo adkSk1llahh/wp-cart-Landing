@@ -1,0 +1,34 @@
+// Global
+//------------------------------------------------------------------------------------//
+
+@import "global/variables";
+@import "global/mixins";
+@import "global/fonts";
+@import "global/reboot";
+@import "global/common";
+
+@import "global/button";
+
+// Header
+//------------------------------------------------------------------------------------//
+
+@import "blocks/header/header";
+@import "blocks/header/mobile-burger";
+@import "blocks/header/menu";
+
+
+// Main
+//------------------------------------------------------------------------------------//
+
+@import "blocks/main/main";
+@import "blocks/main/home";
+@import "blocks/main/about";
+@import "blocks/main/conditions";
+@import "blocks/main/card-list";
+@import "blocks/main/usage";
+@import "blocks/main/sport";
+
+// Footer
+//------------------------------------------------------------------------------------//
+
+@import "blocks/footer/footer";

@@ -1,0 +1,34 @@
+.usage {
+    &__wrapper {
+        padding-top: 222px;
+        padding-bottom: 204px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__text{
+        max-width: 586px;
+    }
+
+    &__list{
+        margin-top: 60px;
+    }
+
+    &__item{
+        margin-bottom: 48px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    &__item-image{
+        margin-right: 48px;
+    }
+
+    &__item-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+}

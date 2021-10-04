@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> </title>
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+	<nav class="header container">
+		<a class="header__logo" href="#">
+			<img class="header__logo-image" src="images/icons/logo.svg" alt="" width="128" height="22" />
+		</a>
+
+		<ul class="menu">
+			<li class="menu__item">
+				<a class="menu__link" href="#home">Главная</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="#about">Карта</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="#conditions">Условия</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="#usage">Использование</a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="#sport">Выгоды</a>
+			</li>
+		</ul>
+
+		<a class="button button--request" href="#footer">
+			<svg class="button__image" width="41" height="26" viewBox="0 0 41 26" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<mask id="mask0" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="41" height="26">
+					<rect x="40.3037" y="25.2383" width="39.9996" height="25.2341" rx="1.06765"
+						transform="rotate(-180 40.3037 25.2383)" fill="#1B64DC" />
+				</mask>
+				<g mask="url(#mask0)">
+					<rect x="40.3037" y="25.2383" width="39.9996" height="25.2341" rx="3.6"
+						transform="rotate(-180 40.3037 25.2383)" fill="#258CFF" />
+				</g>
+				<rect x="8.97363" y="6.01953" width="1.61105" height="11.2774" fill="white" />
+				<rect x="15.418" y="10.8516" width="1.61105" height="11.2774" transform="rotate(90 15.418 10.8516)"
+					fill="white" />
+				<path
+					d="M27.0637 16.0805L24.9793 20.9309H23.6173L22.587 17.0574C22.5278 16.8161 22.4685 16.7356 22.2791 16.6322C21.9711 16.4713 21.45 16.3103 21 16.2184L21.0355 16.0805H23.2265C23.5107 16.0805 23.7594 16.2644 23.8187 16.5747L24.3634 19.3792L25.7135 16.0805H27.0637ZM32.4286 19.3562C32.4286 18.0804 30.6047 17.9999 30.6166 17.4367C30.6166 17.2643 30.7942 17.0804 31.1614 17.0345C31.3509 17.0115 31.8601 16.9885 32.4404 17.2528L32.6654 16.2184C32.3575 16.1149 31.9548 16 31.4574 16C30.1784 16 29.2783 16.6552 29.2783 17.6091C29.2665 18.3103 29.9178 18.7011 30.4034 18.9309C30.9127 19.1723 31.0785 19.3217 31.0785 19.5286C31.0785 19.8505 30.6758 19.9999 30.3087 19.9999C29.6573 20.0114 29.2783 19.8275 28.9822 19.6895L28.7454 20.747C29.0533 20.8849 29.6099 20.9999 30.1784 20.9999C31.5285 21.0113 32.4167 20.3562 32.4286 19.3562ZM35.8039 20.9309H37L35.9578 16.0805H34.8564C34.6077 16.0805 34.3945 16.2184 34.2998 16.4368L32.3575 20.9309H33.7195L33.9919 20.2068H35.6499L35.8039 20.9309ZM34.359 19.2183L35.0341 17.3908L35.4249 19.2183H34.359ZM28.9112 16.0805L27.8453 20.9309H26.5544L27.6203 16.0805H28.9112Z"
+					fill="white" />
+			</svg>
+
+			Оставить заявку
+		</a>
+
+		<button class="mobile-burger">
+			<img class="mobile-burger__image" src="" alt="" width="25" height="25" />
+		</button>
+	</nav>
+
+	<main class="main">
+		<section class="home inner inner--gradient" id="home">
+			<div class="home__wrapper">
+				<h1 class="inner__title home__title">
+					Мы объявляем пилотный запуск виртуальной карты Wooppay!
+				</h1>
+
+				<picture class="home__picture">
+					<source type="image/webp" media="(min-width: 768px)" srcset="
+                images/desktop/header-image@1x.webp 1x,
+                images/desktop/header-image@2x.webp 2x
+              " />
+					<source type="image/webp" srcset="
+                images/mobile/header-imageи@1x.webp 1x,
+                images/mobile/header-image@2x.webp  2x
+              " />
+
+					<source media="(min-width: 768px)" srcset="
+                images/desktop/header-image@1x.png 1x,
+                images/desktop/header-image@2x.png 2x
+              " />
+					<img class="home__image" src="images/mobile/header-image@1x.png"
+						srcset="images/mobile/header-image@2x.png 2x" alt="header-image" width="438" height="462" />
+				</picture>
+
+				<p class="home__text">
+					Сейчас у вас есть уникальная возможность стать одним из первых
+					обладателей карты, принять участие в пилотном запуске и получить 1
+					000тг на счет
+				</p>
+
+				<a class="button button--home" href="#footer"> Хочу участвовать </a>
+			</div>
+		</section>
+
+		<section class="about inner" id="about">
+			<div class="about__wrapper inner__content container">
+				<div class="inner__text">
+					<h1 class="inner__title inner__title--gradient about__gradient">
+						Виртуальная карта WOOPPAY —
+					</h1>
+
+					<h2 class="inner__subtitle">
+						возвращаем кешбэки реальными деньгами, а не бонусами
+					</h2>
+
+					<ul class="inner__list about__list">
+						<li class="inner__item about__item">
+							<img class="inner__item-image about__item-image" src="images/icons/about-icon-1.svg" alt=""
+								width="60" height="60" />
+							<p class="inner__item-text">
+								1% с каждой покупки 2% с платежей внутри приложения WP* 1,5% с
+								платежей в интернет-магазинах*
+							</p>
+						</li>
+
+						<li class="inner__item about__item">
+							<img class="inner__item-image about__item-image" src="images/icons/about-icon-2.svg" alt=""
+								width="60" height="60" />
+							<p class="inner__item-text">
+								Повышенный кешбэк до 10% у наших партнеров при оплате через
+								приложение
+							</p>
+						</li>
+
+						<li class="inner__item about__item">
+							<img class="inner__item-image about__item-image" src="images/icons/about-icon-3.svg" alt=""
+								width="60" height="60" />
+							<p class="inner__item-text">
+								На открытие карты, не выходя из дома
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<picture class="inner__picture">
+					<source type="image/webp" media="(min-width: 768px)" srcset="
+                images/desktop/about-image@1x.webp 1x,
+                images/desktop/about-image@2x.webp 2x
+              " />
+					<source type="image/webp" srcset="
+                images/mobile/about-imageи@1x.webp 1x,
+                images/mobile/about-image@2x.webp  2x
+              " />
+
+					<source media="(min-width: 768px)" srcset="
+                images/desktop/about-image@1x.png 1x,
+                images/desktop/about-image@2x.png 2x
+              " />
+					<img class="inner__image about__image" src="images/mobile/about-image@1x.png"
+						srcset="images/mobile/about-image@2x.png 2x" alt="about-image" width="684" height="636" />
+				</picture>
+			</div>
+		</section>
+
+		<section class="conditions inner inner--gradient" id="conditions">
+			<div class="conditions__wrapper inner__content container">
+				<picture class="inner__picture">
+					<source type="image/webp" media="(min-width: 768px)" srcset="
+                images/desktop/conditions-image@1x.webp 1x,
+                images/desktop/conditions-image@2x.webp 2x
+              " />
+					<source type="image/webp" srcset="
+                images/mobile/conditions-image@1x.webp 1x,
+                images/mobile/conditions-image@2x.webp 2x
+              " />
+
+					<source media="(min-width: 768px)" srcset="
+                images/desktop/conditions-image@1x.png 1x,
+                images/desktop/conditions-image@2x.png 2x
+              " />
+					<img class="inner__image conditions__image" src="images/mobile/conditions-image@1x.png"
+						srcset="images/mobile/conditions-image@2x.png 2x" alt="conditions-image" width="684"
+						height="636" />
+				</picture>
+
+				<div class="inner__text">
+					<h1 class="inner__title conditions__title">
+						Условия по виртуальной карте
+					</h1>
+
+					<ul class="inner__list conditions__list">
+						<li class="inner__item conditions__item">
+							<img class="inner__item-image conditions__item-image"
+								src="images/icons/conditions-icon-1.svg" alt="" width="102" height="102" />
+
+							<div class="card-list">
+								<span class="card-list__item">Обслуживание</span>
+								<span class="card-list__item">Пополнение карты</span>
+								<span class="card-list__item">Переводы между картами Wooppay</span>
+							</div>
+
+						</li>
+
+						<li class="inner__item conditions__item">
+							<img class="inner__item-image conditions__item-image"
+								src="images/icons/conditions-icon-2.svg" alt="" width="102" height="102" />
+							<div class="card-list">
+								<span class="card-list__item"> Кешбэки начисляются после совершения оплаты</span>
+								<span class="card-list__item card-list__item--opacity">Переводы между картами
+									Wooppay</span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="usage inner" id="usage">
+			<div class="usage__wrapper inner__content container">
+				<div class="inner__text usage__text">
+					<h1 class="inner__title inner__title--gradient usage__gradient">
+						Использование виртуальной карты
+					</h1>
+
+					<ul class="inner__list usage__list">
+						<li class="inner__item usage__item">
+							<img class="inner__item-image usage__item-image" src="images/icons/usage-icon-1.svg" alt=""
+								width="70" height="50" />
+							<p class="inner__item-text">
+								Платежи в интернете доступны сразу после открытия
+							</p>
+						</li>
+
+						<li class="inner__item usage__item">
+							<img class="inner__item-image usage__item-image" src="images/icons/usage-icon-2.svg" alt=""
+								width="70" height="50" />
+							<p class="inner__item-text">
+								Привязка к Apple Pay и Samsung Pay
+							</p>
+						</li>
+
+						<li class="inner__item usage__item">
+							<img class="inner__item-image usage__item-image" src="images/icons/usage-icon-3.svg" alt=""
+								width="70" height="50" />
+							<p class="inner__item-text">
+								Пополнение с любой карты, которую можно привязать, а также с баланса мобильного или Qiwi
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<picture class="inner__picture">
+					<source type="image/webp" media="(min-width: 768px)" srcset="
+                images/desktop/usage-image@1x.webp 1x,
+                images/desktop/usage-image@2x.webp 2x
+              " />
+					<source type="image/webp" srcset="
+                images/mobile/usage-image@1x.webp 1x,
+                images/mobile/usage-image@2x.webp  2x
+              " />
+
+					<source media="(min-width: 768px)" srcset="
+                images/desktop/usage-image@1x.png 1x,
+                images/desktop/usage-image@2x.png 2x
+              " />
+					<img class="inner__image usage__image" src="images/mobile/usage-image@1x.png"
+						srcset="images/mobile/usage-image@2x.png 2x" alt="usage-image" width="684" height="654" />
+				</picture>
+			</div>
+		</section>
+
+		<section class="sport inner inner--gradient" id="sport">
+			<div class="sport__wrapper inner__content container">
+				<picture class="inner__picture">
+					<source type="image/webp" media="(min-width: 768px)" srcset="
+                images/desktop/sport-image@1x.webp 1x,
+                images/desktop/sport-image@2x.webp 2x
+              " />
+					<source type="image/webp" srcset="
+                images/mobile/sport-image@1x.webp 1x,
+                images/mobile/sport-image@2x.webp 2x
+              " />
+
+					<source media="(min-width: 768px)" srcset="
+                images/desktop/sport-image@1x.png 1x,
+                images/desktop/sport-image@2x.png 2x
+              " />
+					<img class="inner__image sport__image" src="images/mobile/sport-image@1x.png"
+						srcset="images/mobile/sport-image@2x.png 2x" alt="sport-image" width="722" height="580" />
+				</picture>
+
+				<div class="inner__text sport__text">
+					<h1 class="inner__title sport__title">
+						Дополнительные выгоды для спортивных болельщиков
+					</h1>
+
+					<ul class="inner__list sport__list">
+						<li class="inner__item sport__item">
+							<img class="sport__item-image" src="images/icons/sport-icon-1.svg" alt="" width="88"
+								height="88" />
+
+							<div class="card-list">
+								<span class="card-list__item sport__item-text">
+									1,5% кешбэка реальными деньгами при пополнении игрового
+									аккаунта на сайтах букмекеров
+								</span>
+							</div>
+
+						</li>
+
+						<li class="inner__item sport__item">
+							<img class="sport__item-image" src="images/icons/sport-icon-2.svg" alt="" width="88"
+								height="88" />
+							<div class="card-list">
+								<span class="card-list__item sport__item-text">
+									2% кешбэка реальными деньгами при пополнении игрового
+									аккаунта в приложении Wooppay, а также повышенный кэшбек у партнеров по спортивной
+									тематике
+								</span>
+							</div>
+						</li>
+
+						<li class="inner__item sport__item">
+							<img class="sport__item-image" src="images/icons/sport-icon-3.svg" alt="" width="88"
+								height="88" />
+							<div class="card-list">
+								<span class="card-list__item sport__item-text">
+									Х2 быстрее вывод средств с игрового аккаунта на виртуальную карту Wooppay, чем на
+									другую банковскую карту
+								</span>
+							</div>
+						</li>
+
+						<li class="inner__item sport__item">
+							<img class="sport__item-image" src="images/icons/sport-icon-4.svg" alt="" width="88"
+								height="88" />
+							<div class="card-list">
+								<span class="card-list__item sport__item-text">
+									Пополнение игрового аккаунта в 1 клик через приложение Wooppay
+								</span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+		<section class="footer inner" id="footer">
+			<div class="footer__wrapper inner__content container">
+				<div class="inner__text footer__text">
+					<h1 class="inner__title footer__title">
+						Ваше мнение и опыт повлияют на то, каким станет новый цифровой продукт Казахстана
+					</h1>
+
+					<ul class="inner__list footer__list">
+						<li class="inner__item footer__item">
+							<img class="inner__item-image footer__item-image" src="images/icons/footer-icon-1.svg"
+								alt="" width="40" height="40" />
+							<p class="inner__item-text inner__item-text--black">
+								Отправьте заявку для участия. На вашу почту придет ссылка для скачивания приложения
+							</p>
+						</li>
+
+						<li class="inner__item footer__item">
+							<img class="inner__item-image footer__item-image" src="images/icons/footer-icon-2.svg"
+								alt="" width="40" height="40" />
+							<p class="inner__item-text inner__item-text--black">
+								Зарегистрируйтесь в нем и откройте виртуальную карту
+							</p>
+						</li>
+
+						<li class="inner__item footer__item">
+							<img class="inner__item-image footer__item-image" src="images/icons/footer-icon-3.svg"
+								alt="" width="40" height="40" />
+							<p class="inner__item-text inner__item-text--black">
+								Начните оплачивать покупки виртуальной картой
+								онлайн и офлайн
+							</p>
+						</li>
+
+						<li class="inner__item footer__item">
+							<img class="inner__item-image footer__item-image" src="images/icons/footer-icon-3.svg"
+								alt="" width="40" height="40" />
+							<p class="inner__item-text inner__item-text--black">
+								Расскажите нам, что вам понравилось и где возникли сложности. Мы вам позвоним
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<picture class="inner__picture footer__picture">
+					<source type="image/webp" media="(min-width: 768px)" srcset="
+                images/desktop/footer-image@1x.webp 1x,
+                images/desktop/footer-image@2x.webp 2x
+              " />
+					<source type="image/webp" srcset="
+                images/mobile/footer-image@1x.webp 1x,
+                images/mobile/footer-image@2x.webp  2x
+              " />
+
+					<source media="(min-width: 768px)" srcset="
+                images/desktop/footer-image@1x.png 1x,
+                images/desktop/footer-image@2x.png 2x
+              " />
+					<img class="inner__image footer__image" src="images/mobile/footer-image@1x.png"
+						srcset="images/mobile/footer-image@2x.png 2x" alt="footer-image" width="550" height="1100" />
+				</picture>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
+
+	<script src="libs/jquery-3.6.0.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+</body>
+
+</html>

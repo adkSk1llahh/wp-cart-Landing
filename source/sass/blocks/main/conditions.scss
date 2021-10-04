@@ -1,0 +1,27 @@
+.conditions{
+    height: 100%;
+
+    &__wrapper{
+        padding-top: 320px;
+        padding-bottom: 248px;
+    }
+
+    &__title{
+        color: #fff;
+        margin-bottom: 58px;
+    }
+
+    &__list{
+        max-width: 532px;
+        font-size: 24px;
+        line-height: 1.6;
+    }
+
+    &__item-image{
+        margin-right: 48px;
+    }
+
+    &__item{
+        margin-bottom: 56px;
+    }
+}

@@ -1,0 +1,44 @@
+.about {
+    background-color: transparent;
+
+    &:before {
+        background-image: url('../images/desktop/bg-about.svg');
+    }
+
+    &__wrapper{
+        padding-top: 276px;
+        padding-bottom: 296px;
+    }
+
+    &__gradient{
+        margin-bottom: 30px;
+    }
+
+    &__image{
+
+    }
+
+    &__list{
+        max-width: 444px;
+        width: 100%;
+        padding-top: 58px;
+        padding-bottom: 46px;
+    }
+
+    &__item{
+        margin-bottom: 50px;
+
+    }
+
+    &__item-image{
+        width: 60px;
+        height: 60px;
+        margin-right: 32px;
+    }
+
+    &__item-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+}

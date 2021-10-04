@@ -1,0 +1,37 @@
+.button {
+  font-family: "Geometria";
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  font-size: 18px;
+  line-height: 1.30;
+  font-weight: 400;
+
+  cursor: pointer;
+
+  &--request {
+    margin-left: auto;
+    background: #EEF5FF;
+
+    color: #014ca7;
+  }
+
+  &--home {
+    color: #fff;
+    max-width: 550px;
+    width: 100%;
+    background: linear-gradient(0deg, #1C83FF, #1C83FF), #1C83FF;
+    border-radius: 15px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 48px rgba(25, 157, 231, 0.5));
+  }
+
+  &__image {
+    margin-right: 20px;
+    width: 40px;
+    height: 26px;
+  }
+}

@@ -17,10 +17,30 @@
     left: 50%;
     transform: translateX(-50%);
 
+    @include respond-to(320) {
+        top: 46px;
+    }
+
+    &__mobile-logo{
+        display: none;
+        width: 44px;
+        height: 22px;
+        margin-right: 23px;
+
+        @include respond-to(320) {
+            display: block;
+        }
+    }
+    
+
     &__logo{
         width: 128px;
         height: 22px;
         margin-right: 36px;
+
+        @include respond-to(320) {
+            display: none;
+        }
     }
 
 }

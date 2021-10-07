@@ -1,0 +1,105 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+
+  &--result{
+    display: none;
+  }
+
+  &--menu{
+    display: none;
+  }
+
+  &--request{
+    display: none;
+  }
+
+    
+  &.active{
+    display: block;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .4);
+  backdrop-filter: blur(6px);
+}
+
+.modal-result {
+  max-width: 762px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 98px;
+  padding-left: 88px;
+  padding-right: 88px;
+  padding-bottom: 88px;
+  z-index: 12;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 160px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  display: none;
+
+  &__content{
+    max-width: 492px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+
+  &__image {
+    margin-bottom: 88px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Geometria";
+    font-weight: 700;
+    margin-bottom: 50px;
+    background: linear-gradient(260.6deg, #801cff 4.06%, rgba(255, 255, 255, 0) 73.8%), linear-gradient(0deg, #014ca7, #014ca7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 33px;
+    color: #1C4F94;
+    margin-bottom: 52px;
+    text-align: center;
+    padding: 0;
+
+    &--error{
+      padding: 0 50px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    padding: 31px 10px;
+    background: #3791FD;
+    border-radius: 15px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+
+}

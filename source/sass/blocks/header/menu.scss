@@ -2,6 +2,10 @@
     list-style: none;
     display: flex;
 
+    @include respond-to(320) {
+		display: none;
+    }
+
     &__item{
         margin-right: 32px;
         

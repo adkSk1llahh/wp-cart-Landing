@@ -2,8 +2,12 @@
     &__wrapper {
         padding-top: 222px;
         padding-bottom: 204px;
-        width: 100%;
-        height: 100%;
+
+        @include respond-to(320) {
+            padding-top: 100px;
+            padding-bottom: 72px;
+            flex-direction: column-reverse;
+        }
     }
 
     &__text{
@@ -12,6 +16,12 @@
 
     &__list{
         margin-top: 60px;
+    }
+
+    &__picture{
+        @include respond-to(320) {
+            margin-bottom: 56px;
+        }
     }
 
     &__item{

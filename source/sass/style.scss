@@ -1,13 +1,19 @@
 // Global
 //------------------------------------------------------------------------------------//
 
-@import "global/variables";
 @import "global/mixins";
 @import "global/fonts";
 @import "global/reboot";
 @import "global/common";
 
 @import "global/button";
+
+@import "global/field-checkbox";
+
+@import "global/modal";
+
+
+@import "global/mobile-menu";
 
 // Header
 //------------------------------------------------------------------------------------//
@@ -32,3 +38,5 @@
 //------------------------------------------------------------------------------------//
 
 @import "blocks/footer/footer";
+@import "blocks/footer/send-request";
+@import "blocks/footer/form";

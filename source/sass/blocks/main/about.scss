@@ -8,25 +8,44 @@
     &__wrapper{
         padding-top: 276px;
         padding-bottom: 296px;
+
+        @include respond-to(320) {
+			flex-direction: column-reverse;
+            padding-top: 102px;
+            padding-bottom: 106px;
+		}
     }
 
     &__gradient{
         margin-bottom: 30px;
+
+        @include respond-to(320) {
+            margin-bottom: 10px;
+        }
     }
 
-    &__image{
-
-    }
 
     &__list{
         max-width: 444px;
         width: 100%;
         padding-top: 58px;
         padding-bottom: 46px;
+
+        @include respond-to(320) {
+            padding: 10px 0;
+        }
     }
 
     &__item{
         margin-bottom: 50px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        @include respond-to(320) {
+            margin-bottom: 24px;
+        }
 
     }
 
@@ -34,11 +53,21 @@
         width: 60px;
         height: 60px;
         margin-right: 32px;
+
+        @include respond-to(320) {
+            width: 40px;
+            height: 40px;
+        }
     }
 
     &__item-text{
         font-size: 18px;
         line-height: 24px;
+
+        @include respond-to(320) {
+            font-size: 14px;
+            line-height: 18px;
+        }
     }
 
 }
